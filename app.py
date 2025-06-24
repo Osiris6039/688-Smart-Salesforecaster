@@ -5,8 +5,8 @@ import pandas as pd
 import numpy as np
 import os
 from datetime import datetime, timedelta
-from tensorflow.keras.models import Sequential, load_model
-from tensorflow.keras.layers import Dense
+from keras.models import Sequential, load_model
+from keras.layers import Dense
 from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
