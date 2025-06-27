@@ -1,6 +1,6 @@
 
 import streamlit as st
-from pages import input_data, event_history
+from components import input_data, event_history
 from utils.model_utils import load_model, retrain_model, predict_next_10_days
 from utils.data_utils import load_data, get_last_7_days, display_accuracy_graph
 
